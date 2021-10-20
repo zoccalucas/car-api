@@ -1,4 +1,4 @@
-import { Category } from '../model/category';
+import { Category } from '../model/Category';
 import { ICreateCategoryDTO } from '../interfaces/ICategories';
 
 class CategoriesRepository {
@@ -18,6 +18,10 @@ class CategoriesRepository {
     });
 
     this.categories.push(category);
+  }
+
+  list(): Category[] {
+    return this.categories;
   }
 }
 
