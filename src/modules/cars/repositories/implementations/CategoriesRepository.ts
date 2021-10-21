@@ -1,6 +1,6 @@
-import { ICategoriesRepository, ICategoryParams } from '../interfaces/ICategories';
-
-import { Category } from '../model/Category';
+import { Category } from '../../model/Category';
+import { ICategoriesRepository } from '../ICategoriesRepository';
+import { ICategoryParams } from '../../interfaces/ICategories';
 
 class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
