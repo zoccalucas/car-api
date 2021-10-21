@@ -1,8 +1,7 @@
-import { CategoriesRepository } from '../repositories/CategoriesRepository';
-import { ICategoryParams } from '../interfaces/ICategories';
+import { ICategoriesRepository, ICategoryParams } from '../interfaces/ICategories';
 
 class CreateCategoryService {
-  constructor(private categoriesRepository: CategoriesRepository) {}
+  constructor(private categoriesRepository: ICategoriesRepository) {}
 
   execute({ name, description }: ICategoryParams): void {
     const categoriesAlreadyExists = this.categoriesRepository.findByName(name);

@@ -1,7 +1,8 @@
-import { Category } from '../model/Category';
-import { ICategoryParams } from '../interfaces/ICategories';
+import { ICategoriesRepository, ICategoryParams } from '../interfaces/ICategories';
 
-class CategoriesRepository {
+import { Category } from '../model/Category';
+
+class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
 
   constructor() {
