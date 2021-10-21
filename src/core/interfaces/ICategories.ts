@@ -1,4 +1,4 @@
-export interface ICreateCategoryDTO {
+export interface ICategoryParams {
   name: string;
   description: string;
 }
