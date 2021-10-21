@@ -1,6 +1,6 @@
-import { ICategoriesRepository, ICategoryParams } from '../interfaces/ICategories';
+import { ICategoriesRepository, ICategoryParams } from "../../interfaces/ICategories";
 
-class CreateCategoryService {
+class CreateCategoryUseCase {
   constructor(private categoriesRepository: ICategoriesRepository) {}
 
   execute({ name, description }: ICategoryParams): void {
@@ -14,4 +14,4 @@ class CreateCategoryService {
   }
 }
 
-export { CreateCategoryService };
+export { CreateCategoryUseCase };
