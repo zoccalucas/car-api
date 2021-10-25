@@ -10,7 +10,8 @@ Segue abaixo as principais dependências utilizadas nesta API:
 
 - [Express](https://expressjs.com/pt-br/);
 - [TypeScript](https://www.typescriptlang.org/);
-- [Uuid](https://www.npmjs.com/package/uuid).
+- [Uuid](https://www.npmjs.com/package/uuid);
+- [Multer](https://www.npmjs.com/package/multer).
 
 Também, foram utilizadas as seguintes ferramentas para manter o código limpo e padronizado:
 
