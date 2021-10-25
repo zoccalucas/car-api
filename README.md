@@ -20,6 +20,7 @@ Também, foram utilizadas as seguintes ferramentas para manter o código limpo e
 - [ESLint](https://eslint.org/);
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig).
 
+Para a documentação foi utilizado o [Swagger](https://swagger.io/).
 
 ## 📁 Como executar o projeto:
 
