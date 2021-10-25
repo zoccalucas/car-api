@@ -1,4 +1,5 @@
-import { ICategoriesRepository, ICategoryParams } from "../../interfaces/ICategories";
+import { ICategoriesRepository } from "../../repositories/ICategoriesRepository";
+import { ICategoryParams } from "../../interfaces/ICategories";
 
 class CreateCategoryUseCase {
   constructor(private categoriesRepository: ICategoriesRepository) {}
