@@ -28,8 +28,8 @@ Para a documentação foi utilizado o [Swagger](https://swagger.io/).
 2. Instale o [NodeJs](https://nodejs.org/en/);
 3. Clone o repositório;
 4. Acesse a pasta do projeto e execute o comando `yarn` para instalar todas às dependências;
-5. Assim que a instalação terminar, digite o comando `yarn dev`.
-_OBS: A API está rodando na porta 3333._
-
-### **🛠️ API EM DESENVOLVIMENTO**
+5. Assim que a instalação terminar, digite o comando `yarn dev`;
+6. A API está rodando na porta 3333;
+7. Visualize a documentação na rota `http://localhost:3333/api-docs`
+## **🛠️ API EM DESENVOLVIMENTO 🛠️**
 
