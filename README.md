@@ -23,17 +23,33 @@ Também, foram utilizadas as seguintes ferramentas para manter o código limpo e
 
 Para a documentação foi utilizado o [Swagger](https://swagger.io/).
 
+Para os containers foi utilizado o [Docker](https://docs.docker.com/get-docker/).
+
 ---
 
 ## 📁 Como executar o projeto:
 
+### 🐋 Com Docker:
+
+- Instale o [Docker](https://docs.docker.com/get-docker/)
+
+- Execute os comandos abaixo no terminal:
+
+```bash
+  $ git clone https://github.com/zoccalucas/car-api.git
+
+  $ cd car-api
+
+  $ docker-compose up
+```
+
+### 🚀 Com Yarn:
 
 -  Instale o [NodeJs](https://nodejs.org/en/)
 
 -  Instale o [Yarn](https://yarnpkg.com/)
 
 -  Execute os comandos abaixo no terminal:
-
 
 ```bash
   $ git clone https://github.com/zoccalucas/car-api.git
@@ -43,6 +59,22 @@ Para a documentação foi utilizado o [Swagger](https://swagger.io/).
   $ yarn install
 
   $ yarn dev
+```
+
+### 💻 Com NPM:
+
+-  Instale o [NodeJs](https://nodejs.org/en/)
+
+-  Execute os comandos abaixo no terminal:
+
+```bash
+  $ git clone https://github.com/zoccalucas/car-api.git
+
+  $ cd car-api
+
+  $ npm install
+
+  $ npm run dev
 ```
 
 - A API está rodando na porta 3333
