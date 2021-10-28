@@ -3,8 +3,9 @@
 Aplicação de aluguel de carros feita com [NodeJs](https://nodejs.org/en/). Onde, é possível cadastrar um usuário, cadastrar um carro e suas especificações e cadastrar um aluguel.
 Esta API foi desenvolvida seguindo o padrão de arquitetura limpa [SOLID](https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html), da Programação Orientada a Objetos.
 
+---
 
-## ⚙ Tecnologias utilizadas:
+## ⚙️ Tecnologias utilizadas:
 
 Segue abaixo as principais dependências utilizadas nesta API:
 
@@ -22,14 +23,32 @@ Também, foram utilizadas as seguintes ferramentas para manter o código limpo e
 
 Para a documentação foi utilizado o [Swagger](https://swagger.io/).
 
+---
+
 ## 📁 Como executar o projeto:
 
-1. Instale o [Yarn](https://yarnpkg.com/);
-2. Instale o [NodeJs](https://nodejs.org/en/);
-3. Clone o repositório;
-4. Acesse a pasta do projeto e execute o comando `yarn` para instalar todas às dependências;
-5. Assim que a instalação terminar, digite o comando `yarn dev`;
-6. A API está rodando na porta 3333;
-7. Visualize a documentação na rota `http://localhost:3333/api-docs`
-## **🛠️ API EM DESENVOLVIMENTO 🛠️**
+
+-  Instale o [NodeJs](https://nodejs.org/en/)
+
+-  Instale o [Yarn](https://yarnpkg.com/)
+
+-  Execute os comandos abaixo no terminal:
+
+
+```bash
+  $ git clone https://github.com/zoccalucas/car-api.git
+
+  $ cd car-api
+
+  $ yarn install
+
+  $ yarn dev
+```
+
+- A API está rodando na porta 3333
+
+- Visualize a documentação na rota `http://localhost:3333/api-docs`
+
+---
+#### **🛠️ API em desenvolvimento 🛠️**
 
