@@ -29,20 +29,6 @@ Para os containers foi utilizado o [Docker](https://docs.docker.com/get-docker/)
 
 ## 📁 Como executar o projeto:
 
-### 🐋 Com Docker:
-
-- Instale o [Docker](https://docs.docker.com/get-docker/)
-
-- Execute os comandos abaixo no terminal:
-
-```bash
-  $ git clone https://github.com/zoccalucas/car-api.git
-
-  $ cd car-api
-
-  $ docker-compose up
-```
-
 ### 🚀 Com Yarn:
 
 -  Instale o [NodeJs](https://nodejs.org/en/)
