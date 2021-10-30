@@ -1,5 +1,5 @@
 import { ISpecificationsParams } from "../interfaces/ISpecifications";
-import { Specification } from "../model/Specification";
+import { Specification } from "../entities/Specification";
 
 export interface ISpecificationsRepository {
   create({name, description}: ISpecificationsParams): void;

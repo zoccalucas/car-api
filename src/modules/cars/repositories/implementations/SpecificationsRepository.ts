@@ -1,6 +1,6 @@
 import { ISpecificationsParams } from '../../interfaces/ISpecifications';
 import { ISpecificationsRepository } from '../ISpecificationsRepository';
-import { Specification } from '../../model/Specification';
+import { Specification } from '../../entities/Specification';
 
 class SpecificationsRepository implements ISpecificationsRepository {
   private specifications: Specification[];

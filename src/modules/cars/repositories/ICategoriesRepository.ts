@@ -1,4 +1,4 @@
-import { Category } from "../model/Category";
+import { Category } from "../entities/Category";
 import { ICategoryParams } from "../interfaces/ICategories";
 
 export interface ICategoriesRepository {
