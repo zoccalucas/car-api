@@ -11,9 +11,13 @@ Segue abaixo as principais dependências utilizadas nesta API:
 
 - [Express](https://expressjs.com/pt-br/);
 - [TypeScript](https://www.typescriptlang.org/);
+- [TypeORM](https://typeorm.io/#/).
+
+Outras dependências utilizadas no desenvolvimento:
 - [Uuid](https://www.npmjs.com/package/uuid);
 - [Multer](https://www.npmjs.com/package/multer);
-- [Csv-Parse](https://www.npmjs.com/package/csv-parse);
+- [Csv-Parse](https://www.npmjs.com/package/csv-parse).
+
 
 Também, foram utilizadas as seguintes ferramentas para manter o código limpo e padronizado:
 
@@ -38,12 +42,19 @@ Para os containers foi utilizado o [Docker](https://docs.docker.com/get-docker/)
 -  Execute os comandos abaixo no terminal:
 
 ```bash
+  #Clona o repositório
   $ git clone https://github.com/zoccalucas/car-api.git
 
+  #Acessa o diretório do projeto
   $ cd car-api
 
+  #Instala as dependências
   $ yarn install
 
+  #Cria as tabelas do banco de dados
+  $ yarn typeorm migration:run
+
+  #Executa a aplicação
   $ yarn dev
 ```
 
@@ -54,12 +65,19 @@ Para os containers foi utilizado o [Docker](https://docs.docker.com/get-docker/)
 -  Execute os comandos abaixo no terminal:
 
 ```bash
+  #Clona o repositório
   $ git clone https://github.com/zoccalucas/car-api.git
 
+  #Acessa o diretório do projeto
   $ cd car-api
 
+  #Instala as dependências
   $ npm install
 
+  #Cria as tabelas do banco de dados
+  $ npm run typeorm migration:run
+
+  #Executa a aplicação
   $ npm run dev
 ```
 
